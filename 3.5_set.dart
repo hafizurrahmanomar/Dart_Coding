@@ -42,7 +42,9 @@ void main() {
   print(unqFamilyName.isEmpty);
   print(unqFamilyName.isNotEmpty);
   print(unqFamilyName.length);
-
+  Set<String> names={'Hafiz', 'Toha', 'kalam','salam','Nayeem',};
+  print("Intersection value: ${names.intersection(unqFamilyName)}");
+  print("Union value: ${names.union(unqFamilyName)}");
   // clear the set
   unqFamilyName.clear();
   print(unqFamilyName);

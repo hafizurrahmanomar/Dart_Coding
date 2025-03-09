@@ -11,9 +11,7 @@ void main() {
   // Fixed length list
   const myNameList = ['Hafiz', 'Toha', 'Tohura'];
   print(myNameList);
-  nameList.add("Nayeem");
-  print(myNameList);
-  nameList.add("Toma");
+  //myNameList.add("Nayeem");
   print(myNameList);
 
 }

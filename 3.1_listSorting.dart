@@ -1,15 +1,13 @@
 void main() {
   List<String> nameList = ["Hafizur", "Rahman", "Omar", "Toha", "Nayeem"];
   print(nameList);
-
   String firstItem = nameList.first;
   print(firstItem);
   String lastItem = nameList.last;
   print(lastItem);
   int size = nameList.length;
   print(size);
-  String reverse = nameList.reversed as String;
-  print(reverse);
+
 
   // add
   nameList.add("Almas");
